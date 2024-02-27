@@ -1,0 +1,1 @@
+Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nextup/Downloads/colcon_ws/src/ebot_docking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nextup/Downloads/colcon_ws/install/ebot_docking

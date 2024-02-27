@@ -1,0 +1,1 @@
+/home/nextup/Downloads/colcon_ws/src/eyantra_warehouse/launch/some_launch_file.launch.py

@@ -1,0 +1,818 @@
+[0.867s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.867s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6a7bd7a770>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6a7bd79690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6a7bd79690>>)
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.904s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nextup/Downloads/colcon_ws'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ros'
+[0.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aws-robomaker-small-warehouse-world' with type 'ros.ament_cmake' and name 'aws_robomaker_small_warehouse_world'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ros'
+[0.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_description' with type 'ros.ament_cmake' and name 'ebot_description'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extensions ['colcon_pkg']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extension 'colcon_pkg'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extensions ['colcon_meta']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_docking) by extension 'ros'
+[0.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_docking' with type 'ros.ament_cmake' and name 'ebot_docking'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_nav2) by extension 'ros'
+[0.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_nav2' with type 'ros.ament_cmake' and name 'ebot_nav2'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyantra_warehouse' with type 'ros.ament_cmake' and name 'eyantra_warehouse'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ros'
+[0.921s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore_ament_install'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_pkg']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_pkg'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_meta']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ros'
+[0.921s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ros']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ros'
+[0.922s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense_gazebo_plugin' with type 'ros.ament_cmake' and name 'realsense_gazebo_plugin'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ignore_ament_install'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['colcon_pkg']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_moveit) by extension 'ros'
+[0.923s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_moveit' with type 'ros.ament_cmake' and name 'ur5_moveit'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_pkg']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_pkg'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_meta']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_meta'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ros']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ros'
+[0.924s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.015s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nextup/vision_ws/install/ur5_moveit' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.015s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nextup/vision_ws/install/realsense_gazebo_plugin' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.015s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nextup/vision_ws/install/pymoveit2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.015s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nextup/vision_ws/install/linkattacher_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.015s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/ur5_moveit' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/ur_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/realsense_gazebo_plugin' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/pymoveit2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/linkattacher_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/ebot_docking' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.034s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/nextup/vision_ws/install
+[1.048s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/nextup/colcon_ws/install
+[1.061s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nextup/explorers_ws/install
+[1.074s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nextup/Desktop/visionexplorers/install
+[1.088s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 423 installed packages in /opt/ros/humble
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_cache' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_first' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_force_configure' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'ament_cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.176s] DEBUG:colcon.colcon_core.verb:Building package 'aws_robomaker_small_warehouse_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/aws-robomaker-small-warehouse-world', 'symlink_install': False, 'test_result_base': None}
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'cmake_args' from command line to 'None'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'cmake_target' from command line to 'None'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'cmake_clean_cache' from command line to 'False'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'cmake_clean_first' from command line to 'False'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'cmake_force_configure' from command line to 'False'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'ament_cmake_args' from command line to 'None'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'catkin_cmake_args' from command line to 'None'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'ebot_docking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.189s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_docking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/ebot_docking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/ebot_docking', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/ebot_docking', 'symlink_install': False, 'test_result_base': None}
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.202s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/ebot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/ebot_nav2', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/ebot_nav2', 'symlink_install': False, 'test_result_base': None}
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.215s] DEBUG:colcon.colcon_core.verb:Building package 'eyantra_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/eyantra_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/eyantra_warehouse', 'symlink_install': False, 'test_result_base': None}
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.228s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.241s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.254s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/pymoveit2', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/pymoveit2', 'symlink_install': False, 'test_result_base': None}
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.267s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/realsense_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.280s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/ur_description', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/ur_description', 'symlink_install': False, 'test_result_base': None}
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.293s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/ebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/ebot_description', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/ebot_description', 'symlink_install': False, 'test_result_base': None}
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_target' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'ur5_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.306s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nextup/Downloads/colcon_ws/build/ur5_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nextup/Downloads/colcon_ws/install/ur5_moveit', 'merge_install': False, 'path': '/home/nextup/Downloads/colcon_ws/src/ur5_moveit', 'symlink_install': False, 'test_result_base': None}
+[1.319s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/ebot_docking' with build type 'ament_cmake'
+[1.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/ebot_docking'
+[1.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/ur_description' with build type 'ament_cmake'
+[1.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/ur_description'
+[1.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/aws-robomaker-small-warehouse-world' with build type 'ament_cmake'
+[1.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/aws-robomaker-small-warehouse-world'
+[1.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.609s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/ebot_nav2' with build type 'ament_cmake'
+[1.609s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/ebot_nav2'
+[1.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/eyantra_warehouse' with build type 'ament_cmake'
+[1.700s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/eyantra_warehouse'
+[1.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/gazebo_ros2_control' with build type 'ament_cmake'
+[1.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/gazebo_ros2_control'
+[1.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/linkattacher_msgs' with build type 'ament_cmake'
+[1.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/linkattacher_msgs'
+[1.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.983s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/pymoveit2' with build type 'ament_cmake'
+[1.983s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/pymoveit2'
+[1.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.075s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/realsense_gazebo_plugin' with build type 'ament_cmake'
+[2.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/realsense_gazebo_plugin'
+[2.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ebot_docking -- -j16 -l16
+[2.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ur_description -- -j16 -l16
+[2.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world -- -j16 -l16
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ebot_nav2 -- -j16 -l16
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/eyantra_warehouse -- -j16 -l16
+[2.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control -- -j16 -l16
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/linkattacher_msgs -- -j16 -l16
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/pymoveit2 -- -j16 -l16
+[2.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin -- -j16 -l16
+[2.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ur_description -- -j16 -l16
+[2.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world -- -j16 -l16
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ebot_nav2 -- -j16 -l16
+[2.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/eyantra_warehouse -- -j16 -l16
+[2.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ur_description
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ebot_nav2
+[2.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world
+[2.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[2.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/eyantra_warehouse
+[2.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ur_description
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description' for CMake module files
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description' for CMake config files
+[2.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/lib'
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/bin'
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/lib/python3.10/site-packages'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/bin'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.dsv'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.sh'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.bash'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.zsh'
+[2.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[2.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_nav2)
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ebot_nav2
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2' for CMake module files
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2' for CMake config files
+[2.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_nav2', 'cmake_prefix_path')
+[2.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.sh'
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/bin'
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/lib/pkgconfig/ebot_nav2.pc'
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/lib/python3.10/site-packages'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/bin'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.ps1'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.dsv'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.bash'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.zsh'
+[2.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/colcon-core/packages/ebot_nav2)
+[2.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[2.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control -- -j16 -l16
+[2.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/aws_robomaker_small_warehouse_world
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world' for CMake module files
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world' for CMake config files
+[2.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/bin'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/lib/python3.10/site-packages'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/bin'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[2.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin -- -j16 -l16
+[2.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[2.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/eyantra_warehouse
+[2.489s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse' for CMake module files
+[2.489s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse' for CMake config files
+[2.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/bin'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/lib/python3.10/site-packages'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/bin'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[2.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[2.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[2.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description' for CMake module files
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description' for CMake config files
+[2.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[2.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[2.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/lib'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/bin'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/lib/python3.10/site-packages'
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur_description/bin'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.dsv'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.sh'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.bash'
+[2.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.zsh'
+[2.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[2.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/ur5_moveit' with build type 'ament_cmake'
+[2.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/ur5_moveit'
+[2.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_nav2)
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2' for CMake module files
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2' for CMake config files
+[2.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_nav2', 'cmake_prefix_path')
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.ps1'
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.dsv'
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.sh'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/bin'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/lib/pkgconfig/ebot_nav2.pc'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/lib/python3.10/site-packages'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/bin'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.ps1'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.dsv'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.sh'
+[2.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.bash'
+[2.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.zsh'
+[2.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/colcon-core/packages/ebot_nav2)
+[2.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/linkattacher_msgs -- -j16 -l16
+[2.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/pymoveit2 -- -j16 -l16
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ebot_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ebot_docking -- -j16 -l16
+[2.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world' for CMake module files
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world' for CMake config files
+[2.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/bin'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/lib/python3.10/site-packages'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/bin'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[2.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[2.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin
+[2.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse' for CMake module files
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse' for CMake config files
+[2.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/bin'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/lib/python3.10/site-packages'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/bin'
+[2.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[2.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[2.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[2.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[2.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[2.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[2.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[2.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur5_moveit': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ur5_moveit -- -j16 -l16
+[2.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control' for CMake module files
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control' for CMake config files
+[2.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib'
+[2.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[2.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[2.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[2.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/bin'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[2.895s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/bin'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[2.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[2.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/linkattacher_msgs
+[2.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/pymoveit2
+[2.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[2.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ebot_docking
+[2.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/realsense_gazebo_plugin
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin' for CMake module files
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin' for CMake config files
+[2.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[2.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[2.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[2.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[2.950s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib'
+[2.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[2.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[2.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[2.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/bin'
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[2.964s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/bin'
+[2.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[2.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[2.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[2.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur5_moveit' returned '0': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ur5_moveit -- -j16 -l16
+[2.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/linkattacher_msgs
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs' for CMake module files
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs' for CMake config files
+[3.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[3.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[3.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/lib'
+[3.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/bin'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/bin'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[3.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[3.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_docking)
+[3.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ebot_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ebot_docking
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking' for CMake module files
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking' for CMake config files
+[3.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_docking', 'cmake_prefix_path')
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/cmake_prefix_path.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/cmake_prefix_path.dsv'
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/cmake_prefix_path.sh'
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib'
+[3.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_docking', 'ld_library_path_lib')
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/ld_library_path_lib.ps1'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/ld_library_path_lib.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/ld_library_path_lib.sh'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/bin'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib/pkgconfig/ebot_docking.pc'
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib/python3.10/site-packages'
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/bin'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.dsv'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.sh'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.bash'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.zsh'
+[3.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/colcon-core/packages/ebot_docking)
+[3.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[3.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/pymoveit2
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2' for CMake module files
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2' for CMake config files
+[3.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/lib'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/bin'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/lib/python3.10/site-packages'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/bin'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.ps1'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.sh'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.bash'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.zsh'
+[3.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[3.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[3.173s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control' for CMake module files
+[3.173s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control' for CMake config files
+[3.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[3.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[3.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[3.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[3.187s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib'
+[3.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[3.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[3.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[3.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/bin'
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[3.201s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[3.201s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/bin'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[3.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[3.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[3.243s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin' for CMake module files
+[3.243s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin' for CMake config files
+[3.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[3.257s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib'
+[3.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[3.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/bin'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/bin'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[3.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[3.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[3.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[3.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[3.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur5_moveit': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ur5_moveit
+[3.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs' for CMake module files
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs' for CMake config files
+[3.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[3.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/lib'
+[3.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[3.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[3.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[3.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[3.341s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/bin'
+[3.341s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[3.341s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/lib/python3.10/site-packages'
+[3.341s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/bin'
+[3.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[3.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[3.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[3.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[3.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[3.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[3.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_docking)
+[3.383s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking' for CMake module files
+[3.383s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking' for CMake config files
+[3.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_docking', 'cmake_prefix_path')
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/cmake_prefix_path.ps1'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/cmake_prefix_path.dsv'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/cmake_prefix_path.sh'
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib'
+[3.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_docking', 'ld_library_path_lib')
+[3.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/ld_library_path_lib.ps1'
+[3.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/ld_library_path_lib.dsv'
+[3.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/hook/ld_library_path_lib.sh'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/bin'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib/pkgconfig/ebot_docking.pc'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib/python3.10/site-packages'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_docking/bin'
+[3.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.ps1'
+[3.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.dsv'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.sh'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.bash'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/ebot_docking/package.zsh'
+[3.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ebot_docking/share/colcon-core/packages/ebot_docking)
+[3.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[3.452s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2' for CMake module files
+[3.453s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2' for CMake config files
+[3.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/lib'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/bin'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/lib/python3.10/site-packages'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/pymoveit2/bin'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.ps1'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.dsv'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.sh'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.bash'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/pymoveit2/package.zsh'
+[3.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[3.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nextup/Downloads/colcon_ws/src/ebot_description' with build type 'ament_cmake'
+[3.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nextup/Downloads/colcon_ws/src/ebot_description'
+[3.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit)
+[3.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur5_moveit' returned '0': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ur_description:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ur5_moveit
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit' for CMake module files
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit' for CMake config files
+[3.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'cmake_prefix_path')
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.ps1'
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.dsv'
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.sh'
+[3.606s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/bin'
+[3.606s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/lib/pkgconfig/ur5_moveit.pc'
+[3.607s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/lib/python3.10/site-packages'
+[3.607s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/bin'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.ps1'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.dsv'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.sh'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.bash'
+[3.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.zsh'
+[3.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/colcon-core/packages/ur5_moveit)
+[3.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_description': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib:/home/nextup/vision_ws/install/realsense_gazebo_plugin/lib:/home/nextup/vision_ws/install/linkattacher_msgs/lib:/home/nextup/vision_ws/install/gazebo_ros2_control/lib:/home/nextup/vision_ws/install/ebot_docking/lib:/home/nextup/colcon_ws/install/realsense_gazebo_plugin/lib:/home/nextup/colcon_ws/install/linkattacher_msgs/lib:/home/nextup/colcon_ws/install/gazebo_ros2_control/lib:/home/nextup/colcon_ws/install/ebot_docking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ebot_description -- -j16 -l16
+[3.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_moveit)
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit' for CMake module files
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit' for CMake config files
+[3.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_moveit', 'cmake_prefix_path')
+[3.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.ps1'
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.dsv'
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/hook/cmake_prefix_path.sh'
+[3.675s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/bin'
+[3.675s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/lib/pkgconfig/ur5_moveit.pc'
+[3.675s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/lib/python3.10/site-packages'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/bin'
+[3.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.ps1'
+[3.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.dsv'
+[3.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.sh'
+[3.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.bash'
+[3.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/ur5_moveit/package.zsh'
+[3.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ur5_moveit/share/colcon-core/packages/ur5_moveit)
+[3.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ebot_description' returned '0': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib:/home/nextup/vision_ws/install/realsense_gazebo_plugin/lib:/home/nextup/vision_ws/install/linkattacher_msgs/lib:/home/nextup/vision_ws/install/gazebo_ros2_control/lib:/home/nextup/vision_ws/install/ebot_docking/lib:/home/nextup/colcon_ws/install/realsense_gazebo_plugin/lib:/home/nextup/colcon_ws/install/linkattacher_msgs/lib:/home/nextup/colcon_ws/install/gazebo_ros2_control/lib:/home/nextup/colcon_ws/install/ebot_docking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ebot_description -- -j16 -l16
+[3.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nextup/Downloads/colcon_ws/build/ebot_description': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib:/home/nextup/vision_ws/install/realsense_gazebo_plugin/lib:/home/nextup/vision_ws/install/linkattacher_msgs/lib:/home/nextup/vision_ws/install/gazebo_ros2_control/lib:/home/nextup/vision_ws/install/ebot_docking/lib:/home/nextup/colcon_ws/install/realsense_gazebo_plugin/lib:/home/nextup/colcon_ws/install/linkattacher_msgs/lib:/home/nextup/colcon_ws/install/gazebo_ros2_control/lib:/home/nextup/colcon_ws/install/ebot_docking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ebot_description
+[3.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[3.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nextup/Downloads/colcon_ws/build/ebot_description' returned '0': AMENT_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking:/home/nextup/Desktop/visionexplorers/install/ebot_nav2:/home/nextup/Desktop/visionexplorers/install/auto_car:/home/nextup/explorers_ws/install/auto_car:/home/nextup/vision_ws/install/ur5_moveit:/home/nextup/vision_ws/install/ur_description:/home/nextup/vision_ws/install/realsense_gazebo_plugin:/home/nextup/vision_ws/install/pymoveit2:/home/nextup/vision_ws/install/linkattacher_msgs:/home/nextup/vision_ws/install/gazebo_ros2_control:/home/nextup/vision_ws/install/eyantra_warehouse:/home/nextup/vision_ws/install/ebot_nav2:/home/nextup/vision_ws/install/ebot_description:/home/nextup/vision_ws/install/ebot_docking:/home/nextup/vision_ws/install/aws_robomaker_small_warehouse_world:/home/nextup/colcon_ws/install/ur5_moveit:/home/nextup/colcon_ws/install/ur_description:/home/nextup/colcon_ws/install/realsense_gazebo_plugin:/home/nextup/colcon_ws/install/pymoveit2:/home/nextup/colcon_ws/install/linkattacher_msgs:/home/nextup/colcon_ws/install/gazebo_ros2_control:/home/nextup/colcon_ws/install/eyantra_warehouse:/home/nextup/colcon_ws/install/ebot_nav2:/home/nextup/colcon_ws/install/ebot_docking:/home/nextup/colcon_ws/install/ebot_description:/home/nextup/colcon_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/lib:/home/nextup/vision_ws/install/realsense_gazebo_plugin/lib:/home/nextup/vision_ws/install/linkattacher_msgs/lib:/home/nextup/vision_ws/install/gazebo_ros2_control/lib:/home/nextup/vision_ws/install/ebot_docking/lib:/home/nextup/colcon_ws/install/realsense_gazebo_plugin/lib:/home/nextup/colcon_ws/install/linkattacher_msgs/lib:/home/nextup/colcon_ws/install/gazebo_ros2_control/lib:/home/nextup/colcon_ws/install/ebot_docking/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nextup/Downloads/colcon_ws/install/ebot_docking/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ebot_description
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description' for CMake module files
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description' for CMake config files
+[3.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[3.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/bin'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/lib/python3.10/site-packages'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/bin'
+[3.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.ps1'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.dsv'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.sh'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.bash'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.zsh'
+[3.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[3.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description' for CMake module files
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description' for CMake config files
+[3.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[3.810s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/bin'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/lib/python3.10/site-packages'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/nextup/Downloads/colcon_ws/install/ebot_description/bin'
+[3.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.ps1'
+[3.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.dsv'
+[3.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.sh'
+[3.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.bash'
+[3.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.zsh'
+[3.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nextup/Downloads/colcon_ws/install/ebot_description/share/colcon-core/packages/ebot_description)
+[3.825s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.825s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.825s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.825s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.843s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.850s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nextup/Downloads/colcon_ws/install/local_setup.ps1'
+[3.871s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nextup/Downloads/colcon_ws/install/_local_setup_util_ps1.py'
+[3.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nextup/Downloads/colcon_ws/install/setup.ps1'
+[3.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nextup/Downloads/colcon_ws/install/local_setup.sh'
+[3.890s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nextup/Downloads/colcon_ws/install/_local_setup_util_sh.py'
+[3.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nextup/Downloads/colcon_ws/install/setup.sh'
+[3.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nextup/Downloads/colcon_ws/install/local_setup.bash'
+[3.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nextup/Downloads/colcon_ws/install/setup.bash'
+[3.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nextup/Downloads/colcon_ws/install/local_setup.zsh'
+[3.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nextup/Downloads/colcon_ws/install/setup.zsh'

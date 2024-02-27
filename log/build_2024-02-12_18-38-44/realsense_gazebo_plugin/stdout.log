@@ -1,0 +1,25 @@
+[100%] Built target realsense_gazebo_plugin
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+-- Symlinking: /home/nextup/Downloads/colcon_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml

@@ -1,0 +1,222 @@
+[0.747s] Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nextup/Downloads/colcon_ws/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/nextup/Downloads/colcon_ws/install/ur_description
+[0.790s] -- The C compiler identification is GNU 11.4.0
+[0.830s] -- The CXX compiler identification is GNU 11.4.0
+[0.835s] -- Detecting C compiler ABI info
+[0.882s] -- Detecting C compiler ABI info - done
+[0.888s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.888s] -- Detecting C compile features
+[0.889s] -- Detecting C compile features - done
+[0.891s] -- Detecting CXX compiler ABI info
+[0.949s] -- Detecting CXX compiler ABI info - done
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.958s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.961s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.096s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.197s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.200s] -- Found ament_cmake_pytest: 1.3.6 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.219s] -- Configuring done
+[2.222s] -- Generating done
+[2.223s] -- Build files have been written to: /home/nextup/Downloads/colcon_ws/build/ur_description
+[2.252s] Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nextup/Downloads/colcon_ws/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/nextup/Downloads/colcon_ws/install/ur_description
+[2.253s] Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ur_description -- -j16 -l16
+[2.279s] Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nextup/Downloads/colcon_ws/build/ur_description -- -j16 -l16
+[2.295s] Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ur_description
+[2.301s] -- Install configuration: ""
+[2.301s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config
+[2.301s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3e
+[2.301s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.301s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.301s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5e
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ros_controllers.yaml
+[2.302s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.303s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur16e
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.304s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10e
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.305s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/launch
+[2.306s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.306s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/launch/ur5_gazebo_launch.py
+[2.306s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/launch/spawn_ur5_launch.py
+[2.306s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/launch/bot_launch.launch.py
+[2.306s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/launch/start_ur_world_launch.py
+[2.306s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes
+[2.307s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e
+[2.307s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision
+[2.307s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.307s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.308s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.308s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.308s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.309s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.309s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.309s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual
+[2.309s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.311s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.312s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.314s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.318s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.319s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.322s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[2.322s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e
+[2.322s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision
+[2.322s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[2.323s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[2.323s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[2.323s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[2.324s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[2.324s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[2.324s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[2.325s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual
+[2.325s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[2.326s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[2.328s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[2.329s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[2.332s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[2.333s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[2.334s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[2.335s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/NAVRS.STL
+[2.340s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5
+[2.340s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision
+[2.340s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[2.340s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[2.341s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[2.341s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[2.341s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[2.342s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[2.342s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[2.342s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual
+[2.343s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[2.344s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[2.345s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[2.346s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[2.348s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[2.349s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[2.350s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[2.351s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3
+[2.351s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision
+[2.351s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[2.352s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[2.353s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[2.353s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[2.354s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[2.354s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[2.355s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[2.355s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual
+[2.356s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[2.357s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[2.358s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[2.359s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[2.361s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[2.362s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[2.365s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.365s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e
+[2.365s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e/collision
+[2.365s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[2.366s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[2.366s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e/visual
+[2.366s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[2.368s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[2.372s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10
+[2.372s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision
+[2.372s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.373s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.373s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.373s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.374s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.374s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.374s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[2.375s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual
+[2.375s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[2.378s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[2.381s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[2.383s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[2.385s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[2.386s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[2.387s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[2.388s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e
+[2.388s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision
+[2.388s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[2.388s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[2.389s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[2.389s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[2.389s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[2.390s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[2.390s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[2.390s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual
+[2.390s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[2.392s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[2.395s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[2.396s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[2.400s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[2.401s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[2.404s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[2.404s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/rviz
+[2.405s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.405s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf
+[2.405s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur5_arm.urdf.xacro
+[2.405s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/NAVRS.STL
+[2.412s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur5.urdf.xacro
+[2.412s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur5.ros2_control.xacro
+[2.412s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur.transmission.xacro
+[2.413s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.413s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/realsense2.urdf.xacro
+[2.413s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur5_robot.urdf.xacro
+[2.413s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur.gazebo.xacro
+[2.413s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.414s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/common.gazebo.xacro
+[2.414s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/inc
+[2.414s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.414s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.414s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[2.415s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/test
+[2.415s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[2.415s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[2.415s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/lib/ur_description/task1a.py
+[2.415s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/lib/ur_description/spawner_box_com.py
+[2.416s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/lib/ur_description/pyarmor_runtime_000000
+[2.416s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/lib/ur_description/pyarmor_runtime_000000/__init__.py
+[2.416s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/lib/ur_description/pyarmor_runtime_000000/pyarmor_runtime.so
+[2.417s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.417s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/environment/path.sh
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/environment/path.dsv
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/local_setup.bash
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/local_setup.sh
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/local_setup.zsh
+[2.418s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/local_setup.dsv
+[2.419s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.dsv
+[2.419s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[2.419s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[2.419s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[2.419s] -- Installing: /home/nextup/Downloads/colcon_ws/install/ur_description/share/ur_description/package.xml
+[2.421s] Invoked command in '/home/nextup/Downloads/colcon_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nextup/Downloads/colcon_ws/build/ur_description

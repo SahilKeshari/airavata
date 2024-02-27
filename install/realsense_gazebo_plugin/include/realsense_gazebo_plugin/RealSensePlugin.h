@@ -1,0 +1,1 @@
+/home/nextup/Downloads/colcon_ws/src/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h
