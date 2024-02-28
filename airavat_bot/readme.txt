@@ -1,1 +1,1 @@
-this is the main major project file
+This is the main major project repo.
