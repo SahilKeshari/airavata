@@ -1,6 +1,0 @@
-{
-  "package_name": "ebot_docking",
-  "non_idl_tuples": [
-    "/home/nextup/Downloads/colcon_ws/src/ebot_docking:srv/DockSw.srv"
-  ]
-}

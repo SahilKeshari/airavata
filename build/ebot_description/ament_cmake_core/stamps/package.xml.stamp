@@ -3,8 +3,8 @@
 <package format="3">
   <name>ebot_description</name>
   <version>0.0.0</version>
-  <description>This package is used for simulating ebot of CL theme of eYRC 2023-24.</description>
-  <maintainer email="helpdesk@e-yantra.org">eyantra</maintainer>
+  <description>This package is used for simulating.</description>
+  <maintainer email="kesharisahil26@gmail.com">sahil</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

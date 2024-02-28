@@ -5,7 +5,6 @@
 /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.pgm
 /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.posegraph
 /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.yaml
-/home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map_file_here.text
 /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//params/nav2_params.yaml
 /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//rviz/nav2_default_view.rviz
 /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/package_run_dependencies/ebot_nav2

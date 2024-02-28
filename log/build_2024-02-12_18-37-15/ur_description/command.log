@@ -1,1 +1,0 @@
-Invoking command in '/home/nextup/Downloads/colcon_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nextup/Downloads/colcon_ws/src/ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nextup/Downloads/colcon_ws/install/ur_description

@@ -1,1 +1,0 @@
-/home/nextup/Downloads/colcon_ws/src/ur_description/launch/spawn_ur5_launch.py
