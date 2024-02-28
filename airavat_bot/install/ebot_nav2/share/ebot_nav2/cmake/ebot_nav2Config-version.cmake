@@ -1,0 +1,1 @@
+/home/nextup/Downloads/colcon_ws/build/ebot_nav2/ament_cmake_core/ebot_nav2Config-version.cmake
