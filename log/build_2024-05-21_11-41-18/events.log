@@ -1,0 +1,369 @@
+[0.000000] (-) TimerEvent: {}
+[0.000083] (ebot_description) JobQueued: {'identifier': 'ebot_description', 'dependencies': OrderedDict()}
+[0.000105] (ebot_nav2) JobQueued: {'identifier': 'ebot_nav2', 'dependencies': OrderedDict()}
+[0.000201] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000235] (ebot_description) JobStarted: {'identifier': 'ebot_description'}
+[0.006080] (ebot_nav2) JobStarted: {'identifier': 'ebot_nav2'}
+[0.008622] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.012234] (ebot_description) JobProgress: {'identifier': 'ebot_description', 'progress': 'cmake'}
+[0.013411] (ebot_description) JobProgress: {'identifier': 'ebot_description', 'progress': 'build'}
+[0.013440] (ebot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nextup/Downloads/colcon_ws/build/ebot_description', '--', '-j16', '-l16'], 'cwd': '/home/nextup/Downloads/colcon_ws/build/ebot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('COLCON_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install:/home/nextup/airavat_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:37997'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nextup/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sahil22:@/tmp/.ICE-unix/1707,unix/sahil22:/tmp/.ICE-unix/1707'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/tmp/husarnet-fastdds-simple.xml'), ('INVOCATION_ID', '3e70a385e0f6431baba060993aa2fd22'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9383a349-cdc1-4b62-bd84-2d4991ae7bd5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/Downloads/colcon_ws/build/ebot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.015223] (ebot_nav2) JobProgress: {'identifier': 'ebot_nav2', 'progress': 'cmake'}
+[0.015981] (ebot_nav2) JobProgress: {'identifier': 'ebot_nav2', 'progress': 'build'}
+[0.016209] (ebot_nav2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nextup/Downloads/colcon_ws/build/ebot_nav2', '--', '-j16', '-l16'], 'cwd': '/home/nextup/Downloads/colcon_ws/build/ebot_nav2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('COLCON_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install:/home/nextup/airavat_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:37997'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nextup/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sahil22:@/tmp/.ICE-unix/1707,unix/sahil22:/tmp/.ICE-unix/1707'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/tmp/husarnet-fastdds-simple.xml'), ('INVOCATION_ID', '3e70a385e0f6431baba060993aa2fd22'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9383a349-cdc1-4b62-bd84-2d4991ae7bd5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/Downloads/colcon_ws/build/ebot_nav2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.018006] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.019070] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[0.019412] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control', '--', '-j16', '-l16'], 'cwd': '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('COLCON_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install:/home/nextup/airavat_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:37997'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nextup/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sahil22:@/tmp/.ICE-unix/1707,unix/sahil22:/tmp/.ICE-unix/1707'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/tmp/husarnet-fastdds-simple.xml'), ('INVOCATION_ID', '3e70a385e0f6431baba060993aa2fd22'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9383a349-cdc1-4b62-bd84-2d4991ae7bd5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.062883] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.066062] (ebot_nav2) CommandEnded: {'returncode': 0}
+[0.066848] (ebot_description) CommandEnded: {'returncode': 0}
+[0.078249] (ebot_nav2) JobProgress: {'identifier': 'ebot_nav2', 'progress': 'install'}
+[0.083586] (ebot_nav2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nextup/Downloads/colcon_ws/build/ebot_nav2'], 'cwd': '/home/nextup/Downloads/colcon_ws/build/ebot_nav2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('COLCON_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install:/home/nextup/airavat_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:37997'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nextup/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sahil22:@/tmp/.ICE-unix/1707,unix/sahil22:/tmp/.ICE-unix/1707'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/tmp/husarnet-fastdds-simple.xml'), ('INVOCATION_ID', '3e70a385e0f6431baba060993aa2fd22'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9383a349-cdc1-4b62-bd84-2d4991ae7bd5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/Downloads/colcon_ws/build/ebot_nav2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.084890] (ebot_description) JobProgress: {'identifier': 'ebot_description', 'progress': 'install'}
+[0.085093] (ebot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nextup/Downloads/colcon_ws/build/ebot_description'], 'cwd': '/home/nextup/Downloads/colcon_ws/build/ebot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('COLCON_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install:/home/nextup/airavat_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:37997'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nextup/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sahil22:@/tmp/.ICE-unix/1707,unix/sahil22:/tmp/.ICE-unix/1707'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/tmp/husarnet-fastdds-simple.xml'), ('INVOCATION_ID', '3e70a385e0f6431baba060993aa2fd22'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9383a349-cdc1-4b62-bd84-2d4991ae7bd5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/Downloads/colcon_ws/build/ebot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.088728] (ebot_nav2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.089235] (ebot_nav2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.089485] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//launch/ebot_bringup_launch.py\n'}
+[0.089644] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//config/ekf.yaml\n'}
+[0.089749] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//config/mapper_params_online_async.yaml\n'}
+[0.089877] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.data\n'}
+[0.090082] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.pgm\n'}
+[0.090182] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.posegraph\n'}
+[0.090287] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//maps/map.yaml\n'}
+[0.090407] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//params/nav2_params.yaml\n'}
+[0.090489] (ebot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.090594] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2//rviz/nav2_default_view.rviz\n'}
+[0.090769] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/package_run_dependencies/ebot_nav2\n'}
+[0.090875] (ebot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.091103] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//launch/ebot_gazebo_launch.py\n'}
+[0.091205] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/parent_prefix_path/ebot_nav2\n'}
+[0.091288] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//launch/spawn_robot.py\n'}
+[0.091339] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.sh\n'}
+[0.091413] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//launch/start_world_launch.py\n'}
+[0.091470] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.dsv\n'}
+[0.091518] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//worlds/border_road.world\n'}
+[0.091565] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/path.sh\n'}
+[0.091658] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/environment/path.dsv\n'}
+[0.091705] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//worlds/city.world\n'}
+[0.091752] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//worlds/empty.world\n'}
+[0.091799] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.bash\n'}
+[0.091862] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.sh\n'}
+[0.091909] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.zsh\n'}
+[0.092011] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/local_setup.dsv\n'}
+[0.092067] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//worlds/neighbour.world\n'}
+[0.092121] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//worlds/office.world\n'}
+[0.092175] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//worlds/office2.world\n'}
+[0.092228] (ebot_nav2) StdoutLine: {'line': b'-- Symlinking: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.dsv\n'}
+[0.092305] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/ebot/car.urdf.xacro\n'}
+[0.092354] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/ebot/ebot.gazebo\n'}
+[0.092426] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/ebot/ebot_description.xacro\n'}
+[0.092499] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/ebot/ebot_description1.xacro\n'}
+[0.092579] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/ebot/ebot_description2.xacro\n'}
+[0.092627] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/test_zone/meshes/building.dae\n'}
+[0.092696] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/test_zone/meshes/building.png\n'}
+[0.092765] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/test_zone/model.config\n'}
+[0.092836] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/test_zone/model.sdf\n'}
+[0.092914] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/unit_box/model.config\n'}
+[0.092996] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//models/unit_box/model.sdf\n'}
+[0.093220] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/FUS1.STL\n'}
+[0.093299] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/FUS2.STL\n'}
+[0.093378] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/FUS3.STL\n'}
+[0.093456] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/FUS4.STL\n'}
+[0.093534] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/FWL.STL\n'}
+[0.093611] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/FWR.STL\n'}
+[0.093689] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/LHUS10.STL\n'}
+[0.093767] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/LHUS9.STL\n'}
+[0.093861] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/RHUS7.STL\n'}
+[0.093953] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/RHUS9.STL\n'}
+[0.094042] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/RUS5.STL\n'}
+[0.094128] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/RUS6.STL\n'}
+[0.094203] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/RWL.STL\n'}
+[0.094271] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/RWR.STL\n'}
+[0.094344] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/chassis.dae\n'}
+[0.094413] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//meshes/robot_base.stl\n'}
+[0.094577] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//plugins/libgazebo_collision_sensor.so\n'}
+[0.094659] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description//plugins/libgazebo_ros_vacuum_gripper.so\n'}
+[0.094836] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ament_index/resource_index/package_run_dependencies/ebot_description\n'}
+[0.095173] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ament_index/resource_index/parent_prefix_path/ebot_description\n'}
+[0.095300] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/environment/ament_prefix_path.sh\n'}
+[0.095416] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/environment/ament_prefix_path.dsv\n'}
+[0.095532] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/environment/path.sh\n'}
+[0.095646] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/environment/path.dsv\n'}
+[0.095759] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/local_setup.bash\n'}
+[0.095869] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/local_setup.sh\n'}
+[0.095980] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/local_setup.zsh\n'}
+[0.096091] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/local_setup.dsv\n'}
+[0.096184] (ebot_description) StdoutLine: {'line': b'-- Symlinking: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.dsv\n'}
+[0.097830] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ament_index/resource_index/packages/ebot_nav2\n'}
+[0.097931] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config.cmake\n'}
+[0.098012] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config-version.cmake\n'}
+[0.098138] (ebot_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_nav2/share/ebot_nav2/package.xml\n'}
+[0.099214] (ebot_nav2) CommandEnded: {'returncode': 0}
+[0.099618] (-) TimerEvent: {}
+[0.101633] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ament_index/resource_index/packages/ebot_description\n'}
+[0.101777] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig.cmake\n'}
+[0.101856] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig-version.cmake\n'}
+[0.101950] (ebot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/ebot_description/share/ebot_description/package.xml\n'}
+[0.110630] (ebot_description) CommandEnded: {'returncode': 0}
+[0.137839] (ebot_nav2) JobEnded: {'identifier': 'ebot_nav2', 'rc': 0}
+[0.169665] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.170757] (ebot_description) JobEnded: {'identifier': 'ebot_description', 'rc': 0}
+[0.199731] (-) TimerEvent: {}
+[0.214638] (gazebo_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.226889] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.228580] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.260142] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.262933] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.269280] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.279951] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.294617] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299820] (-) TimerEvent: {}
+[0.399976] (-) TimerEvent: {}
+[0.500153] (-) TimerEvent: {}
+[0.600333] (-) TimerEvent: {}
+[0.700512] (-) TimerEvent: {}
+[0.800697] (-) TimerEvent: {}
+[0.805128] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.806885] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.834811] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.842762] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.858324] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.863705] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.870160] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900767] (-) TimerEvent: {}
+[1.000942] (-) TimerEvent: {}
+[1.101153] (-) TimerEvent: {}
+[1.201370] (-) TimerEvent: {}
+[1.301552] (-) TimerEvent: {}
+[1.365108] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[1.390614] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.401655] (-) TimerEvent: {}
+[1.415370] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.417034] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.421787] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.423406] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.427620] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.427949] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.434682] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.434773] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.434826] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.434886] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.434933] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.435001] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.435044] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.435098] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.435142] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.435187] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.435266] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.435311] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.501766] (-) TimerEvent: {}
+[1.507868] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.508524] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.508877] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.520681] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.527913] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.530892] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.541004] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.564232] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.571469] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.589650] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.589910] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.601836] (-) TimerEvent: {}
+[1.602125] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.606972] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.607545] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.607869] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.608166] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.608239] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.616138] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.616590] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.616864] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.617110] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.618208] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.618567] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.643072] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.650515] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.671641] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.678868] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.696763] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.696983] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.697271] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.698987] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.699642] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.701898] (-) TimerEvent: {}
+[1.706467] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[1.801977] (-) TimerEvent: {}
+[1.902148] (-) TimerEvent: {}
+[2.002337] (-) TimerEvent: {}
+[2.102508] (-) TimerEvent: {}
+[2.202677] (-) TimerEvent: {}
+[2.227559] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.228631] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.284901] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.285954] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.286389] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nextup/Downloads/colcon_ws/src/gazebo_ros2_control/include\n'}
+[2.286460] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.287037] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.287106] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.287637] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.288487] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.288556] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.288837] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.290681] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.302746] (-) TimerEvent: {}
+[2.352340] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.354023] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control\n'}
+[2.374695] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gazebo_hardware_plugins\x1b[0m\n'}
+[2.374888] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[2.402837] (-) TimerEvent: {}
+[2.425703] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[2.427095] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[2.502917] (-) TimerEvent: {}
+[2.603115] (-) TimerEvent: {}
+[2.703338] (-) TimerEvent: {}
+[2.803535] (-) TimerEvent: {}
+[2.903735] (-) TimerEvent: {}
+[3.003934] (-) TimerEvent: {}
+[3.104146] (-) TimerEvent: {}
+[3.204377] (-) TimerEvent: {}
+[3.304597] (-) TimerEvent: {}
+[3.404841] (-) TimerEvent: {}
+[3.505097] (-) TimerEvent: {}
+[3.605333] (-) TimerEvent: {}
+[3.705574] (-) TimerEvent: {}
+[3.805809] (-) TimerEvent: {}
+[3.906070] (-) TimerEvent: {}
+[4.006278] (-) TimerEvent: {}
+[4.106481] (-) TimerEvent: {}
+[4.206678] (-) TimerEvent: {}
+[4.306875] (-) TimerEvent: {}
+[4.407072] (-) TimerEvent: {}
+[4.507301] (-) TimerEvent: {}
+[4.607506] (-) TimerEvent: {}
+[4.707705] (-) TimerEvent: {}
+[4.807903] (-) TimerEvent: {}
+[4.908100] (-) TimerEvent: {}
+[5.008325] (-) TimerEvent: {}
+[5.108553] (-) TimerEvent: {}
+[5.208781] (-) TimerEvent: {}
+[5.309012] (-) TimerEvent: {}
+[5.409245] (-) TimerEvent: {}
+[5.509448] (-) TimerEvent: {}
+[5.609649] (-) TimerEvent: {}
+[5.709877] (-) TimerEvent: {}
+[5.810110] (-) TimerEvent: {}
+[5.910308] (-) TimerEvent: {}
+[6.010511] (-) TimerEvent: {}
+[6.110713] (-) TimerEvent: {}
+[6.210914] (-) TimerEvent: {}
+[6.311134] (-) TimerEvent: {}
+[6.411397] (-) TimerEvent: {}
+[6.511659] (-) TimerEvent: {}
+[6.611921] (-) TimerEvent: {}
+[6.712178] (-) TimerEvent: {}
+[6.812443] (-) TimerEvent: {}
+[6.912710] (-) TimerEvent: {}
+[7.012966] (-) TimerEvent: {}
+[7.113235] (-) TimerEvent: {}
+[7.213506] (-) TimerEvent: {}
+[7.313767] (-) TimerEvent: {}
+[7.414031] (-) TimerEvent: {}
+[7.514304] (-) TimerEvent: {}
+[7.614564] (-) TimerEvent: {}
+[7.714824] (-) TimerEvent: {}
+[7.815085] (-) TimerEvent: {}
+[7.915343] (-) TimerEvent: {}
+[8.015598] (-) TimerEvent: {}
+[8.115846] (-) TimerEvent: {}
+[8.216109] (-) TimerEvent: {}
+[8.316360] (-) TimerEvent: {}
+[8.416607] (-) TimerEvent: {}
+[8.516852] (-) TimerEvent: {}
+[8.617105] (-) TimerEvent: {}
+[8.717367] (-) TimerEvent: {}
+[8.817649] (-) TimerEvent: {}
+[8.917906] (-) TimerEvent: {}
+[9.018173] (-) TimerEvent: {}
+[9.118446] (-) TimerEvent: {}
+[9.218707] (-) TimerEvent: {}
+[9.318967] (-) TimerEvent: {}
+[9.419227] (-) TimerEvent: {}
+[9.519489] (-) TimerEvent: {}
+[9.619752] (-) TimerEvent: {}
+[9.720035] (-) TimerEvent: {}
+[9.820300] (-) TimerEvent: {}
+[9.920561] (-) TimerEvent: {}
+[10.020826] (-) TimerEvent: {}
+[10.121079] (-) TimerEvent: {}
+[10.221346] (-) TimerEvent: {}
+[10.321603] (-) TimerEvent: {}
+[10.421861] (-) TimerEvent: {}
+[10.522114] (-) TimerEvent: {}
+[10.622378] (-) TimerEvent: {}
+[10.722635] (-) TimerEvent: {}
+[10.822887] (-) TimerEvent: {}
+[10.923141] (-) TimerEvent: {}
+[11.023396] (-) TimerEvent: {}
+[11.123649] (-) TimerEvent: {}
+[11.223902] (-) TimerEvent: {}
+[11.324160] (-) TimerEvent: {}
+[11.424432] (-) TimerEvent: {}
+[11.524664] (-) TimerEvent: {}
+[11.552913] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[11.624752] (-) TimerEvent: {}
+[11.724985] (-) TimerEvent: {}
+[11.825183] (-) TimerEvent: {}
+[11.878280] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[11.925296] (-) TimerEvent: {}
+[12.025522] (-) TimerEvent: {}
+[12.125746] (-) TimerEvent: {}
+[12.225952] (-) TimerEvent: {}
+[12.326179] (-) TimerEvent: {}
+[12.426382] (-) TimerEvent: {}
+[12.526581] (-) TimerEvent: {}
+[12.626780] (-) TimerEvent: {}
+[12.726977] (-) TimerEvent: {}
+[12.827174] (-) TimerEvent: {}
+[12.927367] (-) TimerEvent: {}
+[13.027580] (-) TimerEvent: {}
+[13.033567] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[13.127659] (-) TimerEvent: {}
+[13.227887] (-) TimerEvent: {}
+[13.328124] (-) TimerEvent: {}
+[13.428366] (-) TimerEvent: {}
+[13.434289] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[13.441046] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[13.457388] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[13.457796] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control'], 'cwd': '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1486'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2957'), ('COLCON_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install:/home/nextup/airavat_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:37997'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nextup/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sahil22:@/tmp/.ICE-unix/1707,unix/sahil22:/tmp/.ICE-unix/1707'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/var/tmp/husarnet-fastdds-simple.xml'), ('INVOCATION_ID', '3e70a385e0f6431baba060993aa2fd22'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9383a349-cdc1-4b62-bd84-2d4991ae7bd5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/Downloads/colcon_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control:/home/nextup/Downloads/colcon_ws/install/ebot_nav2:/home/nextup/Downloads/colcon_ws/install/ebot_description:/home/nextup/airavat_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[13.462643] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.462995] (gazebo_ros2_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.463296] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[13.463495] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[13.463642] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[13.463752] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[13.464206] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[13.464426] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[13.464678] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[13.464888] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml\n'}
+[13.465005] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[13.465371] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[13.465545] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[13.465648] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[13.465846] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[13.465955] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[13.466151] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[13.466363] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[13.466524] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[13.466625] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[13.466700] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[13.472517] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[13.472745] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[13.473043] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.473176] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.473339] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.473507] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[13.473674] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[13.473780] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nextup/Downloads/colcon_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[13.475316] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[13.500596] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[13.501051] (-) EventReactorShutdown: {}
